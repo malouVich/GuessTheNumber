@@ -2,12 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gæt et tal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <h1>Gæt et tal</h1>
+
+   <ul id="guesses">
+    <li>Du gættede på 43 - det var for højt</li>
+    <li>Du gættede på 41 - det er for lavt</li>
+    <li>Du gættede på 42 - det er korrekt</li>
+   </ul>
+
+   <input type="number" name="guess" id="guess">
+   <button id="btn_guess">Gæt</button>
+
+
+
    <script src="script.js"></script>
 </body>
 </html>
